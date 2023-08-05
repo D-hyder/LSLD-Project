@@ -1,0 +1,1323 @@
+<html lang="en">
+    <head>
+        <style><!----><!----> .osano-cm-window{font-size:16px;font-family:Helvetica,Arial,Hiragino Sans GB,STXihei,Microsoft YaHei,WenQuanYi Micro Hei,Hind,MS Gothic,Apple SD Gothic Neo,NanumBarunGothic,sans-serif;font-smooth:always;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothingz:auto;display:block;position:absolute;left:0;top:0;z-index:2147483638;line-height:1;width:100%}.osano-cm-button{border-width:thin;border-style:solid;border-radius:.25em;font-weight:700;font-size:1em;padding:.5em .75em;margin:.125em;line-height:1;flex:1 1 auto;min-width:6em;cursor:pointer;transition-duration:.2s;transition-property:background-color;transition-timing-function:ease-out}.osano-cm-button--type_icon{min-width:1em;width:1em;line-height:0;height:1em;border-radius:50%}.osano-cm-button:focus,.osano-cm-button:hover{outline:none}.osano-cm-link{cursor:pointer;text-decoration:underline;transition-duration:.2s;transition-property:color;transition-timing-function:ease-out}.osano-cm-link:active,.osano-cm-link:focus,.osano-cm-link:hover{outline:none}.osano-cm-link--type_feature,.osano-cm-link--type_purpose,.osano-cm-link--type_specialFeature,.osano-cm-link--type_specialPurpose{cursor:help;display:block;text-decoration:dashed}.osano-cm-link--type_vendor{display:block}.osano-cm-vendor-link{font-size:.75em}.osano-cm-list-item{margin:0}.osano-cm-list-item--type_term{border-top-width:1px;border-top-style:solid;font-size:.875rem;font-weight:400;margin-bottom:.25em;margin-top:.5em;padding:.5em .75rem 0;position:relative;top:-1px}.osano-cm-list-item--type_description{font-size:.75rem;font-weight:lighter;padding:0 .75rem}.osano-cm-list{list-style-position:outside;list-style-type:none;margin:0;padding:0}.osano-cm-list__list-item{text-indent:0}.osano-cm-list--type_description{margin:0 -1em}.osano-cm-list:first-of-type .osano-cm-list__list-item:first-of-type{border-top-width:0;margin-top:0;padding-top:0}.osano-cm-toggle{align-items:center;display:flex;flex-direction:row-reverse;justify-content:flex-start;margin:.25em 0;position:relative}.osano-cm-toggle__label{margin:0 .5em 0 0}.osano-cm-toggle__switch{color:transparent;line-height:0;text-indent:-9999px;width:44px;height:22px;display:block;flex-shrink:0;border-radius:10px;position:relative;transition-duration:.2s;transition-property:background-color;transition-timing-function:ease-out}.osano-cm-toggle__switch:hover{cursor:pointer}.osano-cm-toggle__switch:after{content:""}.osano-cm-toggle__switch:after,.osano-cm-toggle__switch:before{border-style:solid;border-width:0;position:absolute;top:0;left:0;margin:2px;width:18px;height:18px;border-radius:9px;transform:translateX(0);transition-duration:.3s;transition-property:transform left margin;transition-timing-function:ease-out}.osano-cm-toggle__switch:after:active,.osano-cm-toggle__switch:before:active{width:26px;transition-duration:.1s}.osano-cm-toggle__input{height:1px;width:1px;margin:-1px;opacity:0;position:absolute}.osano-cm-toggle__input:disabled{cursor:default}.osano-cm-toggle--type_checkbox .osano-cm-toggle__switch{border-style:solid;border-radius:4px;border-width:1px;height:22px;width:22px}.osano-cm-toggle--type_checkbox .osano-cm-toggle__switch:after{background-color:initial!important;border-bottom-width:2px;border-left-width:2px;border-radius:0;content:none;height:6px;left:3px;top:3px;transform:rotate(-45deg);transition-property:color;transition-timing-function:ease-out;width:12px}.osano-cm-toggle--type_opt-out .osano-cm-toggle__switch{border-style:solid;border-radius:4px;border-width:1px;height:22px;width:22px}.osano-cm-toggle--type_opt-out .osano-cm-toggle__switch:after,.osano-cm-toggle--type_opt-out .osano-cm-toggle__switch:before{background-color:initial!important;border-top-width:1px;border-bottom-width:1px;border-radius:0;content:none;height:0;left:-3px;top:7px;transition-property:color;transition-timing-function:ease-out;width:12px}.osano-cm-toggle--type_opt-out .osano-cm-toggle__switch:after{transform:translate(50%,50%) rotate(-45deg)}.osano-cm-toggle--type_opt-out .osano-cm-toggle__switch:before{transform:translate(50%,50%) rotate(45deg)}.osano-cm-toggle__input:checked+.osano-cm-toggle__switch:after{left:100%;margin:2px 2px 2px -2px;transform:translateX(-100%)}.osano-cm-toggle__input:disabled+.osano-cm-toggle__switch{cursor:default}.osano-cm-toggle--type_checkbox .osano-cm-toggle__input:checked+.osano-cm-toggle__switch:after{content:"";left:3px;margin:2px;top:3px;transform:rotate(-45deg)}.osano-cm-toggle--type_opt-out .osano-cm-toggle__input:checked+.osano-cm-toggle__switch:after,.osano-cm-toggle--type_opt-out .osano-cm-toggle__input:checked+.osano-cm-toggle__switch:before{content:"";margin:2px;left:-3px;top:7px}.osano-cm-toggle--type_opt-out .osano-cm-toggle__input:checked+.osano-cm-toggle__switch:after{transform:translate(50%,50%) rotate(-45deg)}.osano-cm-toggle--type_opt-out .osano-cm-toggle__input:checked+.osano-cm-toggle__switch:before{transform:translate(50%,50%) rotate(45deg)}.osano-cm-toggle--type_checkbox .osano-cm-toggle__input:disabled+.osano-cm-toggle__switch,.osano-cm-toggle--type_opt-out .osano-cm-toggle__input:disabled+.osano-cm-toggle__switch{opacity:.3}.osano-cm-widget{cursor:pointer;position:fixed;background:none;border:none;bottom:12px;z-index:2147483636;width:40px;height:40px;opacity:.9;outline:none;padding:0;transition:transform .1s linear 0s,opacity .4s linear 0ms,visibility 0ms linear 0ms;visibility:visible}.osano-cm-widget--position_right{right:12px}.osano-cm-widget--position_left{left:12px}.osano-cm-widget:focus,.osano-cm-widget:hover{opacity:1;transform:scale(1.1)}.osano-cm-widget--hidden{opacity:0;transition-delay:0ms,0ms,.4s;visibility:hidden}.osano-cm-widget--hidden:focus,.osano-cm-widget--hidden:hover{opacity:0;transform:scale(1)}.osano-cm-dialog{box-sizing:border-box;font-size:1em;line-height:1.25;align-items:center;position:fixed;z-index:2147483637;padding:1.5em;overflow:auto;transition-property:opacity,visibility;transition-duration:.7s,.7s;transition-delay:0ms,0ms;visibility:visible}.osano-cm-dialog--hidden{opacity:0;transition-delay:0ms,.7s;visibility:hidden}.osano-cm-dialog--type_bar{display:flex;flex-direction:column;box-sizing:border-box;right:0;left:0}.osano-cm-dialog--type_bar .osano-cm-button{flex:none;margin:.125em auto;width:80%}@media screen and (min-width:768px){.osano-cm-dialog--type_bar{flex-direction:row}.osano-cm-dialog--type_bar .osano-cm-button{flex:1 1 auto;width:auto;margin:.25em .5em}}.osano-cm-dialog--type_box{width:calc(100vw - 2em);flex-direction:column;max-width:20em;max-height:calc(100vh - 2em)}.osano-cm-dialog__list{margin:.5em 0 0;padding:0}.osano-cm-dialog__list .osano-cm-item{display:flex;margin-top:0}.osano-cm-dialog__list .osano-cm-item:last-child{margin-bottom:0}.osano-cm-dialog__list .osano-cm-toggle{flex-direction:row}.osano-cm-dialog__list .osano-cm-label{margin-left:.375em;white-space:nowrap}.osano-cm-dialog__buttons{display:flex;flex-wrap:wrap}.osano-cm-dialog--type_bar .osano-cm-dialog__content{flex:5;margin-bottom:.25em}.osano-cm-dialog--type_box .osano-cm-dialog__content{display:flex;flex-direction:column;flex-grow:.00001;transition:flex-grow 1s linear}.osano-cm-dialog--type_bar .osano-cm-dialog__list{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:flex-start;margin:.75em auto}@media screen and (min-width:376px){.osano-cm-dialog--type_bar .osano-cm-dialog__list{flex-direction:row}}@media screen and (min-width:768px){.osano-cm-dialog--type_bar .osano-cm-dialog__list{margin:.5em 0 0 auto}}.osano-cm-dialog--type_bar .osano-cm-dialog__list .osano-cm-item{margin-right:.5em}.osano-cm-dialog--type_bar .osano-cm-dialog__list .osano-cm-label{padding-top:0}.osano-cm-dialog--type_bar .osano-cm-dialog__buttons{flex:1;justify-content:flex-end;width:100%;margin:0}@media screen and (min-width:768px){.osano-cm-dialog--type_bar .osano-cm-dialog__buttons{width:auto;margin:0 0 0 .5em}}.osano-cm-dialog--type_box .osano-cm-dialog__buttons{margin:.5em 0 0}.osano-cm-dialog--type_bar.osano-cm-dialog--position_top{top:0}.osano-cm-dialog--type_bar.osano-cm-dialog--position_bottom{bottom:0}.osano-cm-dialog--type_box.osano-cm-dialog--position_top-left{top:1em;left:1em}.osano-cm-dialog--type_box.osano-cm-dialog--position_top-right{top:1em;right:1em}.osano-cm-dialog--type_box.osano-cm-dialog--position_bottom-left{bottom:1em;left:1em}.osano-cm-dialog--type_box.osano-cm-dialog--position_bottom-right{bottom:1em;right:1em}.osano-cm-dialog--type_box.osano-cm-dialog--position_center{top:50%;left:50%;transform:translate(-50%,-50%)}.osano-cm-content__message{margin-bottom:1em}.osano-cm-drawer-links{margin:.5em 0 0}.osano-cm-drawer-links__link{display:block}.osano-cm-storage-policy{display:inline-block}.osano-cm-info-dialog{position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:2147483638;transition-property:opacity,visibility;transition-duration:.2s,0ms;transition-delay:0ms,0ms;visibility:visible}.osano-cm-info-dialog--hidden{opacity:0;transition-delay:0ms,.2s;visibility:hidden}.osano-cm-info{box-sizing:border-box;position:fixed;bottom:0;top:0;max-width:20em;transition-property:transform;transition-duration:.4s;box-shadow:0 0 2px 2px #ccc;overflow-x:hidden;overflow-y:auto;width:100%}.osano-cm-info--position_left{left:0;transform:translate(-100%)}.osano-cm-info--position_right{right:0;transform:translate(100%)}.osano-cm-info--open{transform:translate(0)}.osano-cm-info-views{align-items:flex-start;display:flex;flex-direction:row;flex-wrap:nowrap;height:100%;transition-property:transform;transition-duration:.4s;width:100%}.osano-cm-info-views__view{box-sizing:border-box;flex-shrink:0;width:100%}.osano-cm-info-views--position_0>:not(:first-of-type),.osano-cm-info-views--position_1>:not(:nth-of-type(2)),.osano-cm-info-views--position_2>:not(:nth-of-type(3)){max-height:100%;overflow:hidden}.osano-cm-view{padding:0 .75em 1em;width:100%}.osano-cm-view__button{font-size:.875em;width:100%;margin:1em 0 0}.osano-cm-header{margin:0 0 -1em;padding:1em 0;position:sticky;top:0;z-index:1}.osano-cm-description{font-size:.75em;font-weight:300;line-height:1.375;margin:1em 0 0}.osano-cm-description:first-child{margin:0}.osano-cm-description:last-of-type{margin-bottom:1em}.osano-cm-drawer-toggle .osano-cm-label{font-size:.875em;margin:0 auto 0 0}.osano-cm-info-dialog-header{min-height:3.25em;position:sticky;top:0;left:0;right:0;z-index:1}.osano-cm-info-dialog-header__header{align-items:center;display:flex;font-size:1em;justify-content:flex-start;margin:0;padding:1em .75em}.osano-cm-info-dialog-header__description{font-size:.75em;line-height:1.375}.osano-cm-info-dialog-header__close{float:right}.osano-cm-close{border:none;cursor:pointer;margin:0;outline:none;padding:1em;position:relative;text-decoration:none;transform:rotate(0deg);transition:transform .2s ease-out;z-index:2}.osano-cm-close polygon{transition-property:fill;transition-duration:.2s;transition-timing-function:ease-out}.osano-cm-close:focus,.osano-cm-close:hover{transform:rotate(90deg)}.osano-cm-back{float:left;margin:.5em 0 0 .75em;min-width:0;position:relative;width:auto;z-index:2}.osano-cm-powered-by{align-items:center;display:flex;flex-direction:column;justify-content:center;margin:1em 0}.osano-cm-powered-by__link{font-size:.625em;text-decoration:none}.osano-cm-expansion-panel{display:block;font-size:.75em;margin:0 -1.5em 1em;padding:1.5em 1.5em 0;border-bottom:1px solid rgba(0,0,0,.1)}.osano-cm-expansion-panel--expanded{border-bottom:none}.osano-cm-expansion-panel--empty,.osano-cm-expansion-panel--empty:not([open]){border-bottom:1px solid rgba(0,0,0,.1);padding-bottom:0}.osano-cm-expansion-panel__body{background-color:rgba(0,0,0,.1);list-style:none;overflow:hidden;max-height:0;margin:0 -1.5em;padding:0 1.5em;transition-property:max-height padding-top padding-bottom;transition-duration:.3s;transition-timing-function:ease-out;line-height:1.25}.osano-cm-expansion-panel__toggle{cursor:pointer;display:block;line-height:1.25;margin:0 auto 1em 0;outline:none;position:relative}.osano-cm-expansion-panel__toggle:active,.osano-cm-expansion-panel__toggle:focus,.osano-cm-expansion-panel__toggle:hover{outline:none}.osano-cm-expansion-panel--expanded .osano-cm-expansion-panel__body{padding:1.25em 1.5em 1em}.osano-cm-cookie-disclosure__title,.osano-cm-script-disclosure__title{border:0;clear:both;display:block;flex:0 1 30%;font-size:1em;font-weight:700;line-height:1.375;margin:0 0 .5em;padding:0}.osano-cm-cookie-disclosure__description,.osano-cm-script-disclosure__description{flex:0 1 70%;font-size:1em;line-height:1.375;margin:0 0 .5em;padding:0}.osano-cm-disclosure{display:block;font-size:.75em;margin:0 -1.5em 1em;border-bottom:none;padding:1.5em 1.5em 0}.osano-cm-disclosure--collapse{border-bottom:1px solid rgba(0,0,0,.1);padding-bottom:1em}.osano-cm-disclosure--empty,.osano-cm-disclosure--empty:not([open]){border-bottom:1px solid rgba(0,0,0,.1);padding-bottom:0}.osano-cm-disclosure__list{line-height:1.25;list-style:none;margin:0 -1.5em;padding:1.25em 1.5em 1em;background-color:rgba(0,0,0,.1)}.osano-cm-disclosure__list:empty{border:none;padding:0 1.5em}.osano-cm-disclosure__list:first-of-type{margin-top:1em;padding:1.25em 1.5em 1em}.osano-cm-disclosure__list:first-of-type:empty{padding:1.75em 1.5em .75em}.osano-cm-disclosure__list:not(:first-of-type):not(:empty){border-top:1px solid rgba(0,0,0,.1)}.osano-cm-disclosure__list:empty+.osano-cm-disclosure__list:not(:empty){border:none;padding:0 1.5em}.osano-cm-disclosure__list:not(:empty)~.osano-cm-disclosure__list:empty+.osano-cm-disclosure__list:not(:empty){border-top:1px solid rgba(0,0,0,.1)}.osano-cm-disclosure__list>.osano-cm-list-item{line-height:1.25}.osano-cm-disclosure__list>.osano-cm-list-item:not(:first-of-type){border-top:1px solid rgba(0,0,0,.1);margin:1em -1.25em 0;padding:1em 1.25em 0}.osano-cm-disclosure__toggle{cursor:pointer;display:block;line-height:1.25;margin:0 auto 0 0;outline:none;position:relative}.osano-cm-disclosure__toggle:active,.osano-cm-disclosure__toggle:focus,.osano-cm-disclosure__toggle:hover{outline:none}.osano-cm-disclosure--loading .osano-cm-disclosure__list{height:0;line-height:0;max-height:0}.osano-cm-disclosure--loading .osano-cm-disclosure__list>*{display:none}.osano-cm-disclosure--loading .osano-cm-disclosure__list:after{content:"";display:block;transform:translateY(-50%);width:1em;height:1em;border-radius:100%;animation-name:osano-load-scale;animation-duration:1s;animation-iteration-count:infinite;animation-timing-function:ease-in-out}.osano-cm-disclosure--collapse .osano-cm-disclosure__list{display:none}.osano-cm-disclosure--collapse .osano-cm-disclosure__list:after{content:none}.osano-cm-cookie-disclosure,.osano-cm-script-disclosure{display:flex;flex-wrap:wrap;margin:0}.osano-cm-cookie-disclosure__description:last-of-type,.osano-cm-cookie-disclosure__title:last-of-type,.osano-cm-script-disclosure__description:last-of-type,.osano-cm-script-disclosure__title:last-of-type{margin-bottom:0}@keyframes osano-load-scale{0%{transform:translateY(-50%) scale(0)}to{transform:translateY(-50%) scale(1);opacity:0}} .osano-cm-dialog { background: #000; color: #ffffff; } .osano-cm-info-dialog { background: rgba(0,0,0,0.45); } .osano-cm-header, .osano-cm-info-dialog-header { background: #fff; background: linear-gradient( 180deg, #fff 2.5em, rgba(255,255,255,0) 100% ); } .osano-cm-info { background: #fff; color: #000; } .osano-cm-info-dialog-header__close > svg > polygon { fill: #000; } .osano-cm-info-dialog-header__close:focus > svg > polygon { fill: #141414; } .osano-cm-info-dialog-header__close:hover > svg > polygon { fill: #212121; } .osano-cm-disclosure__list:first-of-type::after { background-color: #ffffff; } .osano-cm-disclosure__toggle, .osano-cm-expansion-panel__toggle { color: #ffffff; } .osano-cm-disclosure__toggle:hover, .osano-cm-disclosure__toggle:active, .osano-cm-expansion-panel__toggle:hover, .osano-cm-expansion-panel__toggle:active { color: #ffffff; } .osano-cm-disclosure__toggle:focus, .osano-cm-expansion-panel__toggle:focus { color: #ebebeb; } .osano-cm-button { background-color: #cc0000; border-color: #ffffff; color: #ffffff; } .osano-cm-button--type_deny { background-color: #989; border-color: #fff; color: #fff; } .osano-cm-button:focus, .osano-cm-button:hover { background-color: #b80000; } .osano-cm-button--type_deny:focus, .osano-cm-button--type_deny:hover { background-color: #857485; } .osano-cm-close { background: transparent; color: #000; } .osano-cm-link { color: #ffffff; } .osano-cm-link:hover, .osano-cm-link:active { color: #ffffff; } .osano-cm-link:focus { color: #ebebeb; } .osano-cm-toggle__switch { background-color: #d2cfff; } .osano-cm-toggle__switch::after { background-color: #ffffff; border-color: #ffffff; } .osano-cm-toggle__input:checked + .osano-cm-toggle__switch { background-color: #37cd8f; border-color: #37cd8f; } .osano-cm-toggle__input:checked + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:checked + .osano-cm-toggle__switch::before { background-color: #f4f4f4; border-color: #f4f4f4; } .osano-cm-toggle__input:focus + .osano-cm-toggle__switch, .osano-cm-toggle__input:hover + .osano-cm-toggle__switch { background-color: #bebbeb; border-color: #bebbeb; } .osano-cm-toggle__input:focus + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:hover + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:focus + .osano-cm-toggle__switch::before, .osano-cm-toggle__input:hover + .osano-cm-toggle__switch::before { background-color: #ebebeb; border-color: #ebebeb; } .osano-cm-toggle__input:focus:checked + .osano-cm-toggle__switch, .osano-cm-toggle__input:hover:checked + .osano-cm-toggle__switch { background-color: #23b97b; border-color: #23b97b; } .osano-cm-toggle__input:focus:checked + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:hover:checked + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:focus:checked + .osano-cm-toggle__switch::before, .osano-cm-toggle__input:hover:checked + .osano-cm-toggle__switch::before { background-color: #e0e0e0; border-color: #e0e0e0; } .osano-cm-toggle__input:disabled + .osano-cm-toggle__switch, .osano-cm-toggle__input:focus:disabled + .osano-cm-toggle__switch, .osano-cm-toggle__input:hover:disabled + .osano-cm-toggle__switch { background-color: #928fbf; border-color: #928fbf; } .osano-cm-toggle__input:disabled + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:focus:disabled + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:hover:disabled + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:disabled + .osano-cm-toggle__switch::before, .osano-cm-toggle__input:focus:disabled + .osano-cm-toggle__switch::before, .osano-cm-toggle__input:hover:disabled + .osano-cm-toggle__switch::before { background-color: #bfbfbf; border-color: #bfbfbf; } .osano-cm-toggle__input:disabled:checked + .osano-cm-toggle__switch, .osano-cm-toggle__input:disabled:checked:focus + .osano-cm-toggle__switch, .osano-cm-toggle__input:disabled:checked:hover + .osano-cm-toggle__switch { background-color: #008d4f; border-color: #008d4f; } .osano-cm-toggle__input:disabled:checked + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:disabled:checked:focus + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:disabled:checked:hover + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:disabled:checked + .osano-cm-toggle__switch::before, .osano-cm-toggle__input:disabled:checked:focus + .osano-cm-toggle__switch::before, .osano-cm-toggle__input:disabled:checked:hover + .osano-cm-toggle__switch::before { background-color: #b4b4b4; border-color: #b4b4b4; } <!----><!----></style>
+	    <meta charset="UTF-8">
+	    <title>Minerals Exploration</title>
+	    <meta name="title" content="Minerals Exploration">
+	    <meta name="description" content="Baroid IDP has long been a worldwide leader for drilling fluid applications in the Minerals Exploration industry.">
+	    <meta name="template" content="idp-category-page-template">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+        <script> 
+            window.digitalData = { 
+            siteVersion: "1.0", 
+            siteType: "Halliburton-marketing", 
+            siteID: "1.0", 
+            page: { 
+                pageInfo: { 
+                    pageName: "minerals-exploration", 
+                    pageID: "Minerals Exploration", 
+                    pageURL: window.location.pathname.replace(/.html/,'/'), 
+                    referringURL: document.referrer, 
+                    deviceType: navigator.platform, 
+                    breadCrumbs: window.location.pathname.replace(/.html/,'/').replace(/\//gi,':').substr(1,window.location.pathname.length-2), 
+                    language: "en", 
+                    geoRegion: "", 
+                    geoLat: "", 
+                    geoLong: "", 
+                    IP: "", 
+                    zip: "", 
+                    zipDefault: "", 
+                    adminView: "false" 
+                    } 
+                }, 
+                } 
+        </script>			
+        <script>
+            var runmode = "prod";
+            var curr_site = "idp";
+            var analytics_url = {
+                jrc: {
+                    'fav_icon' : 'https://cdn.brandfolder.io/IO6U2Z0D/at/csthgvf5pbk839qkr42c59v/jrc-favicon.ico',
+                    'dev': 'https://assets.adobedtm.com/7e6359a4c8af/2a24d27db305/launch-6fc996e7f51c-development.min.js',
+                    'qa': 'https://assets.adobedtm.com/7e6359a4c8af/2a24d27db305/launch-40ae15efe541-development.min.js',
+                    'stage': 'https://assets.adobedtm.com/7e6359a4c8af/2a24d27db305/launch-7fc601609d69-staging.min.js',
+                    'prod': 'https://assets.adobedtm.com/7e6359a4c8af/2a24d27db305/launch-d01f23a02418.min.js'
+                },
+                bpm: {
+                    'fav_icon' : 'https://cdn.brandfolder.io/3RYPUX6K/at/js46pwc3xn7r3669tmw4xxrb/bentonite-favicon.ico',
+                    'dev': 'https://assets.adobedtm.com/7e6359a4c8af/78e1cb18e75f/launch-c60aa47077ed-development.min.js',
+                    'qa': 'https://assets.adobedtm.com/7e6359a4c8af/78e1cb18e75f/launch-ce42d64c6f64-development.min.js',
+                    'stage': 'https://assets.adobedtm.com/7e6359a4c8af/78e1cb18e75f/launch-e37780a4248d-staging.min.js',
+                    'prod': 'https://assets.adobedtm.com/7e6359a4c8af/78e1cb18e75f/launch-ac9b35e6edd1.min.js'
+                },
+                idp: {
+                    'fav_icon' : 'https://cdn.brandfolder.io/3RYPUX6K/at/6m4th649wxgfm3xg4t4z8w/baroid-idp-favicon.ico',
+                    'dev': 'https://assets.adobedtm.com/7e6359a4c8af/723f24c3a0bb/launch-c1e416939bbd-development.min.js',
+                    'qa': 'https://assets.adobedtm.com/7e6359a4c8af/723f24c3a0bb/launch-500d18fe3db7-development.min.js',
+                    'stage': 'https://assets.adobedtm.com/7e6359a4c8af/723f24c3a0bb/launch-558d5d01bffa-staging.min.js',
+                    'prod': 'https://assets.adobedtm.com/7e6359a4c8af/723f24c3a0bb/launch-740273f4c3b9.min.js'
+                },
+                fann: {
+                    'fav_icon' : 'https://cdn.brandfolder.io/3RYPUX6K/at/9t39gtrv2cw3vt697rg5k/fann-favicon.ico',
+                    'dev': 'https://assets.adobedtm.com/7e6359a4c8af/79e74cc45934/launch-3bbaa857c541-development.min.js',
+                    'qa': 'https://assets.adobedtm.com/7e6359a4c8af/79e74cc45934/launch-ea75818282e9-development.min.js',
+                    'stage': 'https://assets.adobedtm.com/7e6359a4c8af/79e74cc45934/launch-a1dba7e4ef72-staging.min.js',
+                    'prod': 'https://assets.adobedtm.com/7e6359a4c8af/79e74cc45934/launch-12601035a9c1.min.js'
+                }
+            };
+            var osano_script_url = {
+                jrc: 'https://cmp.osano.com/16Bcl9S8DTxgFYKs/efefce67-7dc7-4f3b-84f2-f8a638c55439/osano.js',
+                idp: 'https://cmp.osano.com/16Bcl9S8DTxgFYKs/5e8ddf87-0fd2-4455-becf-8b227ca2d4cd/osano.js',
+                bpm: 'https://cmp.osano.com/16Bcl9S8DTxgFYKs/7ffe8d51-92a3-4eb7-b5fb-3819517d8bbb/osano.js',
+                fann: 'https://cmp.osano.com/16Bcl9S8DTxgFYKs/14ed6e72-39e2-45eb-948f-26e09dbddea3/osano.js'
+            };
+            if(runmode == "dev" || runmode == "qa" || runmode == "stage" || runmode == "prod" ) {
+                window.digitalData.page.pageInfo.sysEnv = runmode;
+                if(curr_site != "") {
+                    //favicon script
+                    var favicon_tag = document.createElement('link');
+                    favicon_tag.setAttribute('href', (analytics_url[curr_site]['fav_icon']));
+                    favicon_tag.setAttribute('rel', 'icon');
+                    favicon_tag.setAttribute('type', 'image/x-icon');
+                    document.head.append(favicon_tag);
+
+                    //favicon shortcut script
+                    var favicon_tag1 = document.createElement('link');
+                    favicon_tag1.setAttribute('href', (analytics_url[curr_site]['fav_icon']));
+                    favicon_tag1.setAttribute('rel', 'shortcut icon');
+                    favicon_tag1.setAttribute('type', 'image/x-icon');
+                    document.head.append(favicon_tag1);
+
+                    //Adding script tag for Adobe Analytics
+                    var script_tag = document.createElement('script');
+                    script_tag.setAttribute('src', (analytics_url[curr_site][runmode]));
+                    script_tag.setAttribute('async', '');
+                    document.head.append(script_tag);
+                    //Adding script tag for Osano script
+                    if(runmode == "prod") {
+                        var osano_tag = document.createElement('script');
+                        osano_tag.setAttribute('src', (osano_script_url[curr_site]));
+                        document.head.append(osano_tag);
+                    }
+                }
+            }
+        </script>
+        <link href="https://cdn.brandfolder.io/3RYPUX6K/at/6m4th649wxgfm3xg4t4z8w/baroid-idp-favicon.ico" rel="icon" type="image/x-icon">
+        <link href="https://cdn.brandfolder.io/3RYPUX6K/at/6m4th649wxgfm3xg4t4z8w/baroid-idp-favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <script src="https://assets.adobedtm.com/7e6359a4c8af/723f24c3a0bb/launch-740273f4c3b9.min.js" async=""></script>
+        <script src="https://cmp.osano.com/16Bcl9S8DTxgFYKs/5e8ddf87-0fd2-4455-becf-8b227ca2d4cd/osano.js"></script>   
+        <link rel="stylesheet" href="/etc.clientlibs/microsites/clientlibs/clientlib-site.css" type="text/css">
+	    <script src="https://assets.adobedtm.com/extensions/EPb56e12d7054b4acea984e91c910051cc/AppMeasurement.min.js" async=""></script><script src="https://assets.adobedtm.com/extensions/EPb56e12d7054b4acea984e91c910051cc/AppMeasurement_Module_ActivityMap.min.js" async=""></script></head>
+    
+    <body class="page basicpage theme-orange false" data-new-gr-c-s-check-loaded="14.1117.0" data-gr-ext-installed="">
+        <div class="osano-cm-window">
+            <!---->  
+            <div role="dialog" aria-live="polite" aria-modal="true" aria-label="Consent Manager by Osano" id="38bf4117-16b4-4919-a2e0-8cbdffc6a54c" aria-describedby="38bf4117-16b4-4919-a2e0-8cbdffc6a54c__label" class="osano-cm-window__dialog osano-cm-dialog osano-cm-dialog--position_top osano-cm-dialog--type_bar osano-cm-dialog--hidden"> 
+                <div class="osano-cm-dialog__content osano-cm-content">  
+                    <span id="38bf4117-16b4-4919-a2e0-8cbdffc6a54c__label" class="osano-cm-content__message osano-cm-message"> This website stores data such as cookies to enable necessary site functionality, including analytics, targeting, and personalization. By remaining on this website you indicate your consent. </span>  
+                    <!---->
+                    <a tabindex="0" href="http://www.halliburtontest.com/en-US/about-us/legal/privacy-policy.html" target="_blank" class="osano-cm-storage-policy osano-cm-content__link osano-cm-link">
+                        <!---->Privacy Notice<!---->
+                    </a>
+                    <!---->   
+                </div>  
+            </div>   
+            <button id="63074a12-3b9d-44e7-a232-ace37d2082e7" class="osano-cm-window__widget osano-cm-widget osano-cm-widget--position_right" title="Cookie Preferences" aria-label="Cookie Preferences"> 
+                <svg width="40" height="40" viewBox="0 0 71.85 72.23" xmlns="http://www.w3.org/2000/svg"> 
+                    <path d="m67.6 36.73a6.26 6.26 0 0 1 -3.2-2.8 5.86 5.86 0 0 0 -5.2-3.1h-.3a11 11 0 0 1 -11.4-9.5 6 6 0 0 1 -.1-1.4 9.2 9.2 0 0 1 .4-2.9 8.65 8.65 0 0 0 .2-1.6 5.38 5.38 0 0 0 -1.9-4.3 7.3 7.3 0 0 1 -2.5-5.5 3.91 3.91 0 0 0 -3.5-3.9 36.46 36.46 0 0 0 -15 1.5 33.14 33.14 0 0 0 -22.1 22.7 35.62 35.62 0 0 0 -1.5 10.2 34.07 34.07 0 0 0 4.8 17.6.75.75 0 0 0 .07.12c.11.17 1.22 1.39 2.68 3-.36.47 5.18 6.16 5.65 6.52a34.62 34.62 0 0 0 55.6-21.9 4.38 4.38 0 0 0 -2.7-4.74z" stroke-width="3" style="fill: rgb(255, 255, 255); stroke: rgb(41, 36, 106);">
+                    </path> 
+                    <path d="m68 41.13a32.37 32.37 0 0 1 -52 20.5l-2-1.56c-2.5-3.28-5.62-7.15-5.81-7.44a32 32 0 0 1 -4.5-16.5 34.3 34.3 0 0 1 1.4-9.6 30.56 30.56 0 0 1 20.61-21.13 33.51 33.51 0 0 1 14.1-1.4 1.83 1.83 0 0 1 1.6 1.8 9.38 9.38 0 0 0 3.3 7.1 3.36 3.36 0 0 1 1.2 2.6 3.37 3.37 0 0 1 -.1 1 12.66 12.66 0 0 0 -.5 3.4 9.65 9.65 0 0 0 .1 1.7 13 13 0 0 0 10.5 11.2 16.05 16.05 0 0 0 3.1.2 3.84 3.84 0 0 1 3.5 2 10 10 0 0 0 4.1 3.83 2 2 0 0 1 1.4 2z" stroke-width="3" style="fill: rgb(255, 255, 255); stroke: rgb(41, 36, 106);">
+                    </path> 
+                    <g style="fill: rgb(55, 205, 143);"> 
+                        <path d="m26.6 31.43a5.4 5.4 0 1 1 5.4-5.43 5.38 5.38 0 0 1 -5.33 5.43z"></path> 
+                        <path d="m25.2 53.13a5.4 5.4 0 1 1 5.4-5.4 5.44 5.44 0 0 1 -5.4 5.4z"></path> 
+                        <path d="m47.9 52.33a5.4 5.4 0 1 1 5.4-5.4 5.32 5.32 0 0 1 -5.24 5.4z"></path> 
+                    </g> 
+                </svg> 
+            </button>   
+            <div id="9410f279-0499-4ada-958f-3935e49e6f76" aria-describedby="9410f279-0499-4ada-958f-3935e49e6f76__label" class="osano-cm-window__info-dialog osano-cm-info-dialog osano-cm-info-dialog--hidden"> 
+                <!---->
+                <span tabindex="0" role="first"></span>
+                <!----> 
+                <div role="dialog" aria-live="polite" aria-modal="true" class="osano-cm-info-dialog__info osano-cm-info osano-cm-info--position_right">  
+                    <div class="osano-cm-info__info-dialog-header osano-cm-info-dialog-header"> 
+                        <button tabindex="0" aria-label="Close Cookie Preferences" class="osano-cm-info-dialog-header__close osano-cm-close">  
+                            <svg width="20px" height="20px" viewBox="0 0 25 25"> 
+                                <polygon points="25 0.71 24.29 0 12.5 11.79 0.71 0 0 0.71 11.79 12.5 0 24.29 0.71 25 12.5 13.21 24.29 25 25 24.29 13.21 12.5 25 0.71"></polygon> 
+                            </svg> 
+                        </button>  
+                        <p id="9410f279-0499-4ada-958f-3935e49e6f76__label" class="osano-cm-info-dialog-header__header osano-cm-header">
+                            <!---->
+                            <!---->
+                        </p> 
+                    </div>  
+                    <div class="osano-cm-info__info-views osano-cm-info-views osano-cm-info-views--position_0" style="transform: translateX(0%);"></div> 
+                </div> 
+                <!---->
+                <span tabindex="0" role="last"></span>
+                <!----> 
+            </div>  
+            <!---->
+        </div>        
+        <link rel="stylesheet" href="/etc.clientlibs/microsites/components/structure/header/clientlib.css" type="text/css">
+        <script src="/etc.clientlibs/microsites/components/structure/header/clientlib.js"></script>
+
+        <header class="hdr-primary fixed">
+            <button class="hdr-menu-toggle">
+                <span class="sr-only">Toggle Primary Navigation</span>
+                <i class="icon icon-cross"></i>
+                <i class="icon icon-hamburger"></i>
+            </button>
+            <a href="/content/idp/en/home.html" class="logo idp-logo" rel="home">
+                <img src="https://cdn.brandfolder.io/3RYPUX6K/at/33kf7b6kwbs6pkjqq2s8sng/baroid-idp-logo.png" alt="Baroid">
+            </a>
+            <div class="hdr-links" id="headerLinks">
+                <nav class="primary-nav" role="navigation">
+                    <ul>
+                        <li class="primary-nav-item parent">
+                            <a href="#" class="primary-nav-link" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                "Products & Applications"
+                                ::after
+                            </a>
+                            <style> 
+                            .subnav-hidden { visibility: hidden; opacity: 0; } body.xf-web-container .subnav-hidden { visibility: visible; opacity: 1; } 
+                            </style>
+                            <div class="sub-nav subnav-hidden">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-xs-12 col-md-offset-1 col-md-4 col-lg-3 col-nav">
+                                    <nav role="navigation">
+                                      <ul class="sub-nav-secondary">
+                                        <li class="back">
+                                            <a href="" class="sub-nav-link">Back</a>
+                                        </li>
+                                        <li class="category">Products &amp; Applications</li>
+                                        <li>
+                                            <a href="/content/idp/en/products-applications/full-product-list.html" target="_self" class="sub-nav-link false">
+                                                "Full Product List"
+                                                ::after
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/content/idp/en/products-applications/water-well-environmental.html" target="_self" class="sub-nav-link false">
+                                                "Water Well/Environmental"
+                                                ::after
+                                            </a>
+                                        </li>
+                                        <li>
+                                          <a href="/content/idp/en/products-applications/horizontal-directional-drilling.html" target="_self" class="sub-nav-link false">Horizontal Directional Drilling</a>
+
+                                        </li>
+                            <li>
+                                          <a href="/content/idp/en/products-applications/minerals-exploration.html" target="_self" class="sub-nav-link false">Minerals Exploration</a>
+
+                                        </li>
+                            <li>
+                                          <a href="/content/idp/en/products-applications/grouting.html" target="_self" class="sub-nav-link false">Grouting</a>
+
+                                        </li>
+                            <li>
+                                          <a href="/content/idp/en/products-applications/well-rehabilitation.html" target="_self" class="sub-nav-link false">Well Rehabilitation</a>
+
+                                        </li>
+                            <li>
+                                          <a href="/content/idp/en/products-applications/civil-engineering-applications.html" target="_self" class="sub-nav-link false">Civil Engineering Applications</a>
+
+                                        </li>
+                            <li>
+                                          <a href="/content/idp/en/products-applications/field-reference-guide-app.html" target="_self" class="sub-nav-link false">Field Reference Guide App</a>
+
+                                        </li>
+                            <li>
+                                          <a href="/content/idp/en/products-applications/nsf-ansi.html" target="_self" class="sub-nav-link false">NSF/ANSI/CAN Standard 60 Certification</a>
+
+                                        </li>
+                                    
+                                        <li class="cta">
+                                          <a class="btn btn-tertiary " href="/content/idp/en/products-applications.html" target="_self">
+                                            View All Products &amp; Applications
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </nav>
+                                  </div>
+                                  <div class="col-xs-12 col-md-7 col-lg-8 col-cards">
+                                    <div class="row">
+                                    
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+
+
+
+                                    </li>
+                                
+                                    <li class="primary-nav-item parent">
+                                      <a href="#" class="primary-nav-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Resources</a>
+          
+
+     
+  <style> .subnav-hidden { visibility: hidden; opacity: 0; } body.xf-web-container .subnav-hidden { visibility: visible; opacity: 1; } </style>
+<div class="sub-nav subnav-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-1 col-md-4 col-lg-3 col-nav">
+        <nav role="navigation">
+          <ul class="sub-nav-secondary">
+            <li class="back"><a href="" class="sub-nav-link">Back</a></li>
+            <li class="category">Resources</li>
+            <li>
+              <a href="/content/idp/en/resources-services/research.html" target="_self" class="sub-nav-link false">Research</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/resources-services/calculators.html" target="_self" class="sub-nav-link false">Calculators</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/resources-services/drilling-charts-calculations.html" target="_self" class="sub-nav-link false">Drilling Charts/Calculations</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/resources-services/inorganic-permeants-contaminants.html" target="_self" class="sub-nav-link false">Inorganic Permeants or Contaminants</a>
+              
+            </li>
+
+            <li class="cta">
+              <a class="btn btn-tertiary " href="/content/idp/en/resources-services.html" target="_self">
+                View Resources
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-xs-12 col-md-7 col-lg-8 col-cards">
+        <div class="row">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+        </li>
+      
+        <li class="primary-nav-item parent">
+          <a href="#" class="primary-nav-link" aria-haspopup="true" aria-expanded="false" tabindex="0">About Us</a>
+          
+
+     
+  <style> .subnav-hidden { visibility: hidden; opacity: 0; } body.xf-web-container .subnav-hidden { visibility: visible; opacity: 1; } </style>
+<div class="sub-nav subnav-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-1 col-md-4 col-lg-3 col-nav">
+        <nav role="navigation">
+          <ul class="sub-nav-secondary">
+            <li class="back"><a href="" class="sub-nav-link">Back</a></li>
+            <li class="category">About Us</li>
+            <li>
+              <a href="/content/idp/en/about-us/health-safety-environment.html" target="_self" class="sub-nav-link false">Health, Safety, and the Environment</a>
+              
+            </li>
+
+            <li class="cta">
+              <a class="btn btn-tertiary " href="/content/idp/en/about-us.html" target="_self">
+                View About Us
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-xs-12 col-md-7 col-lg-8 col-cards">
+        <div class="row">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+        </li>
+      
+        <li class="primary-nav-item parent">
+          <a href="#" class="primary-nav-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Contact Us</a>
+          
+
+     
+  <style> .subnav-hidden { visibility: hidden; opacity: 0; } body.xf-web-container .subnav-hidden { visibility: visible; opacity: 1; } </style>
+<div class="sub-nav subnav-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-1 col-md-4 col-lg-3 col-nav">
+        <nav role="navigation">
+          <ul class="sub-nav-secondary">
+            <li class="back"><a href="" class="sub-nav-link">Back</a></li>
+            <li class="category">Contact Us</li>
+            <li>
+              <a href="/content/idp/en/contact-us/global-contacts.html" target="_self" class="sub-nav-link false">Global Contacts</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/contact-us/management-staff.html" target="_self" class="sub-nav-link false">Management and Staff</a>
+              
+            </li>
+
+            <li class="cta">
+              <a class="btn btn-tertiary " href="/content/idp/en/contact-us.html" target="_self">
+                View Contact Us
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-xs-12 col-md-7 col-lg-8 col-cards">
+        <div class="row">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+        </li>
+      </ul>
+          <a href="#" class="primary-nav-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Products &amp; Applications</a>
+          
+
+     
+  <style> .subnav-hidden { visibility: hidden; opacity: 0; } body.xf-web-container .subnav-hidden { visibility: visible; opacity: 1; } </style>
+<div class="sub-nav subnav-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-1 col-md-4 col-lg-3 col-nav">
+        <nav role="navigation">
+          <ul class="sub-nav-secondary">
+            <li class="back"><a href="" class="sub-nav-link">Back</a></li>
+            <li class="category">Products &amp; Applications</li>
+            <li>
+              <a href="/content/idp/en/products-applications/full-product-list.html" target="_self" class="sub-nav-link false">Full Product List</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/products-applications/water-well-environmental.html" target="_self" class="sub-nav-link false">Water Well/Environmental</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/products-applications/horizontal-directional-drilling.html" target="_self" class="sub-nav-link false">Horizontal Directional Drilling</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/products-applications/minerals-exploration.html" target="_self" class="sub-nav-link false">Minerals Exploration</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/products-applications/grouting.html" target="_self" class="sub-nav-link false">Grouting</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/products-applications/well-rehabilitation.html" target="_self" class="sub-nav-link false">Well Rehabilitation</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/products-applications/civil-engineering-applications.html" target="_self" class="sub-nav-link false">Civil Engineering Applications</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/products-applications/field-reference-guide-app.html" target="_self" class="sub-nav-link false">Field Reference Guide App</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/products-applications/nsf-ansi.html" target="_self" class="sub-nav-link false">NSF/ANSI/CAN Standard 60 Certification</a>
+              
+            </li>
+
+            <li class="cta">
+              <a class="btn btn-tertiary " href="/content/idp/en/products-applications.html" target="_self">
+                View All Products &amp; Applications
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-xs-12 col-md-7 col-lg-8 col-cards">
+        <div class="row">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+        </li>
+      
+        <li class="primary-nav-item parent">
+          <a href="#" class="primary-nav-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Resources</a>
+          
+
+     
+  <style> .subnav-hidden { visibility: hidden; opacity: 0; } body.xf-web-container .subnav-hidden { visibility: visible; opacity: 1; } </style>
+<div class="sub-nav subnav-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-1 col-md-4 col-lg-3 col-nav">
+        <nav role="navigation">
+          <ul class="sub-nav-secondary">
+            <li class="back"><a href="" class="sub-nav-link">Back</a></li>
+            <li class="category">Resources</li>
+            <li>
+              <a href="/content/idp/en/resources-services/research.html" target="_self" class="sub-nav-link false">Research</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/resources-services/calculators.html" target="_self" class="sub-nav-link false">Calculators</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/resources-services/drilling-charts-calculations.html" target="_self" class="sub-nav-link false">Drilling Charts/Calculations</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/resources-services/inorganic-permeants-contaminants.html" target="_self" class="sub-nav-link false">Inorganic Permeants or Contaminants</a>
+              
+            </li>
+
+            <li class="cta">
+              <a class="btn btn-tertiary " href="/content/idp/en/resources-services.html" target="_self">
+                View Resources
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-xs-12 col-md-7 col-lg-8 col-cards">
+        <div class="row">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+        </li>
+      
+        <li class="primary-nav-item parent">
+          <a href="#" class="primary-nav-link" aria-haspopup="true" aria-expanded="false" tabindex="0">About Us</a>
+          
+
+     
+  <style> .subnav-hidden { visibility: hidden; opacity: 0; } body.xf-web-container .subnav-hidden { visibility: visible; opacity: 1; } </style>
+<div class="sub-nav subnav-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-1 col-md-4 col-lg-3 col-nav">
+        <nav role="navigation">
+          <ul class="sub-nav-secondary">
+            <li class="back"><a href="" class="sub-nav-link">Back</a></li>
+            <li class="category">About Us</li>
+            <li>
+              <a href="/content/idp/en/about-us/health-safety-environment.html" target="_self" class="sub-nav-link false">Health, Safety, and the Environment</a>
+              
+            </li>
+
+            <li class="cta">
+              <a class="btn btn-tertiary " href="/content/idp/en/about-us.html" target="_self">
+                View About Us
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-xs-12 col-md-7 col-lg-8 col-cards">
+        <div class="row">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+        </li>
+      
+        <li class="primary-nav-item parent">
+          <a href="#" class="primary-nav-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Contact Us</a>
+          
+
+     
+  <style> .subnav-hidden { visibility: hidden; opacity: 0; } body.xf-web-container .subnav-hidden { visibility: visible; opacity: 1; } </style>
+<div class="sub-nav subnav-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-1 col-md-4 col-lg-3 col-nav">
+        <nav role="navigation">
+          <ul class="sub-nav-secondary">
+            <li class="back"><a href="" class="sub-nav-link">Back</a></li>
+            <li class="category">Contact Us</li>
+            <li>
+              <a href="/content/idp/en/contact-us/global-contacts.html" target="_self" class="sub-nav-link false">Global Contacts</a>
+              
+            </li>
+<li>
+              <a href="/content/idp/en/contact-us/management-staff.html" target="_self" class="sub-nav-link false">Management and Staff</a>
+              
+            </li>
+
+            <li class="cta">
+              <a class="btn btn-tertiary " href="/content/idp/en/contact-us.html" target="_self">
+                View Contact Us
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-xs-12 col-md-7 col-lg-8 col-cards">
+        <div class="row">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+        </li>
+      </ul>
+    </nav>
+    <nav class="utility-nav" role="navigation">
+      <ul>
+        <li>
+          <a href="/content/idp/en/events.html" target="_self">Events</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+
+	<a href="#" class="hdr-search">
+   		<span class="sr-only">Search</span>
+  	</a>
+
+
+</header>
+
+
+    
+
+
+
+
+    
+
+
+
+    
+    <div class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="cmp-pageheader aem-GridColumn aem-GridColumn--default--12"><section class="page-header full-width ">
+   <img class="page-header-full-img" src="https://cdn.brandfolder.io/3RYPUX6K/at/cj55x2svwntfsfjn9mxwbqm/Microsite__Banner-04.jpg?quality=35" alt="Minerals Exploration">
+
+   <div class="header-body">
+
+   <div>
+   <ol class="breadcrumbs fade-in animate">
+      
+      <li>
+			<a href="/content/idp/en/home.html" title="home">
+         home
+         </a>
+      </li>
+
+      
+      
+      
+      
+   
+      
+      
+
+      
+      <li>
+         <a href="/content/idp/en/products-applications.html" title="Products and Applications">
+         Products and Applications
+         </a>
+      </li>
+      
+      
+   
+      
+      
+
+      
+      
+      
+      
+   </ol>
+
+
+    
+</div>
+   <span class="eyebrow fade-in animate">Baroid Industrial Drilling Products</span>
+   <h1 class="headline fade-in animate">Minerals Exploration</h1>
+   
+
+   
+   </div>
+</section>
+
+
+    
+</div>
+<div class="cmp-row aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+
+
+
+
+
+<section class="row no-gutters">
+			<div class="col-xs-12 col-md-8">
+				
+
+
+
+   <div class="cmp-text">
+
+   <section class="section-text">
+				<p>Minerals Exploration represents one of the largest and most challenging markets in the industrial drilling market. This is a result of several factors including extreme geologic conditions, operator requirements, drilling methods and environmental concerns. These and other elements place a tremendous degree of importance on the drilling fluids utilized in coring and drilling operations.</p>
+<p>Baroid IDP has expertise in customizing fluids for the specific challenges in mineral drilling environments worldwide, from North and South America to Asia and Australia, making Baroid IDP a long-standing worldwide leader for drilling fluid applications in Minerals Exploration.</p>
+
+	  </section>
+
+
+    
+
+
+</div>
+  
+
+
+			</div>
+			<div class="col-xs-12 col-md-4">
+				
+
+
+
+   <div class="cmp-related-resource"><section class="related-resources">
+  <h3>Case Histories</h3>
+  <ul>
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/hpxfmwf7r9m5nr29nhr664/Case_History__Torque_reduction_using_PENETROL_DRY.pdf" title="Case History Torque reduction using PENETROL DRY">Case History Torque reduction using PENETROL DRY</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/sfqm7hcxbw4m2xhtwvh8gnh4/North_Vent_Shaft_FINAL.pdf" title="North Vent Shaft at Barrick Gold Case Study">North Vent Shaft at Barrick Gold Case Study</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/cp8zfmmrhqsgwghbvwsj4v/Large_Diameter_Coring.pdf" title="QUIK-TROL GOLD and POLY-BORE In Large Diameter Coring Case Study">QUIK-TROL GOLD and POLY-BORE In Large Diameter Coring Case Study</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/r47vvxfk79jn97kc6kcsbkfs/FUSE-IT_Case_History.pdf" title="FUSE-IT Improves Core Recovery in Australia Case Study">FUSE-IT Improves Core Recovery in Australia Case Study</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/nr87vr7gs8nrs9qsq3knqch/CH2011-13_Dallol_PETROFREE.pdf" title="Use of PETROFREE® System in Dallol Depression Case Study" style="display: none;">Use of PETROFREE<sup>®</sup> System in Dallol Depression Case Study</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/8hpf6ftrt8c3sbks7m3svk5t/Approved_CH2011-06_Jwaneng_PETROFREE_SystemFinal.pdf" title="Core Recovery using PETROFREE® System - Case Study" style="display: none;">Core Recovery using PETROFREE<sup>®</sup> System - Case Study</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/pjftxtrwvrcn5z26nc38f/CaseHistory_HOLEPLUG_pill_for_deep_core_hole.pdf" title="CaseHistory HOLEPLUG pill for deep core hole" style="display: none;">CaseHistory HOLEPLUG pill for deep core hole</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/fgxf2q445ftn9xj36p37k4pj/Case_History_Baroid_RPT_Tool_-_FUSE-IT_Fresnillo_Mexico.pdf" title="Case History Baroid RPT Tool - FUSE-IT Fresnillo Mexico" style="display: none;">Case History Baroid RPT Tool - FUSE-IT Fresnillo Mexico</a>
+      
+    </li>
+  <li class="action-link-li"><a class="action-link" href="" title="Show 4 More">Show 4 More</a></li></ul>
+</section>
+
+    
+</div>
+  
+
+
+			</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+</div>
+<div class="cmp-headline-component aem-GridColumn aem-GridColumn--default--12">
+   
+   
+      <h2 class="standalone-headline">Highlighted Products</h2>
+   
+   
+   
+   
+   
+
+
+    
+</div>
+<div class="cmp-compact-visual-list aem-GridColumn aem-GridColumn--default--12"><section class="compact-visual-list">
+  <div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="Soda Ash">
+    <div class="card-body">
+      <h3>Soda Ash</h3>
+      <a href="/content/idp/en/products/soda-ash.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="AQF-2™ XG">
+    <div class="card-body">
+      <h3>AQF-2™ XG</h3>
+      <a href="/content/idp/en/products/aqf-2-xg.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="BARAD-658™">
+    <div class="card-body">
+      <h3>BARAD-658™</h3>
+      <a href="/content/idp/en/products/barad-658.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="BAROTHERM® GOLD">
+    <div class="card-body">
+      <h3>BAROTHERM<sup>®</sup> GOLD</h3>
+      <a href="/content/idp/en/products/barotherm-gold.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="BORE-GROUT™">
+    <div class="card-body">
+      <h3>BORE-GROUT™</h3>
+      <a href="/content/idp/en/products/bore-grout.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="CON DET®">
+    <div class="card-body">
+      <h3>CON DET<sup>®</sup></h3>
+      <a href="/content/idp/en/products/con-det.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="CORE-LUBE™">
+    <div class="card-body">
+      <h3>CORE-LUBE™</h3>
+      <a href="/content/idp/en/products/core-lube.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="EZ-MUD®">
+    <div class="card-body">
+      <h3>EZ-MUD<sup>®</sup></h3>
+      <a href="/content/idp/en/products/ez-mud.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.auto?width=1600&amp;quality=35" alt="EZ-MUD® DP GOLD">
+    <div class="card-body">
+      <h3>EZ-MUD<sup>®</sup> DP GOLD</h3>
+      <a href="/content/idp/en/products/ez-mud-dp-gold.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="EZ-MUD® GOLD">
+    <div class="card-body">
+      <h3>EZ-MUD<sup>®</sup> GOLD</h3>
+      <a href="/content/idp/en/products/ez-mud-gold.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="EZ-MUD® PLUS">
+    <div class="card-body">
+      <h3>EZ-MUD<sup>®</sup> PLUS</h3>
+      <a href="/content/idp/en/products/ez-mud-plus.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="FUSE-IT®">
+    <div class="card-body">
+      <h3>FUSE-IT<sup>®</sup></h3>
+      <a href="/content/idp/en/products/fuse-it.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="N-SEAL™">
+    <div class="card-body">
+      <h3>N-SEAL™</h3>
+      <a href="/content/idp/en/products/n-seal.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="NXS-LUBE®">
+    <div class="card-body">
+      <h3>NXS-LUBE<sup>®</sup></h3>
+      <a href="/content/idp/en/products/nxs-lube.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="PAC™-L">
+    <div class="card-body">
+      <h3>PAC™-L</h3>
+      <a href="/content/idp/en/products/pac-l.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="PAC™-R">
+    <div class="card-body">
+      <h3>PAC™-R</h3>
+      <a href="/content/idp/en/products/pac-r.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="PENETROL®">
+    <div class="card-body">
+      <h3>PENETROL<sup>®</sup></h3>
+      <a href="/content/idp/en/products/penetrol.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="PENETROL® DRY">
+    <div class="card-body">
+      <h3>PENETROL<sup>®</sup> DRY</h3>
+      <a href="/content/idp/en/products/penetrol-dry.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="PERFORMATROL® 930">
+    <div class="card-body">
+      <h3>PERFORMATROL<sup>®</sup> 930</h3>
+      <a href="/content/idp/en/products/performatrol-930.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="QUIK-FOAM® HP">
+    <div class="card-body">
+      <h3>QUIK-FOAM<sup>®</sup> HP</h3>
+      <a href="/content/idp/en/products/quik-foam-hp.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="QUIK-GEL®">
+    <div class="card-body">
+      <h3>QUIK-GEL<sup>®</sup></h3>
+      <a href="/content/idp/en/products/quik-gel.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="QUIK MUD® D-50">
+    <div class="card-body">
+      <h3>QUIK MUD<sup>®</sup> D-50</h3>
+      <a href="/content/idp/en/products/quik-mud-d-50.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="QUIK-TROL® GOLD">
+    <div class="card-body">
+      <h3>QUIK-TROL<sup>®</sup> GOLD</h3>
+      <a href="/content/idp/en/products/quik-trol-gold.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="QUIK-TROL® GOLD LV">
+    <div class="card-body">
+      <h3>QUIK-TROL<sup>®</sup> GOLD LV</h3>
+      <a href="/content/idp/en/products/quik-trol-gold-lv.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+<div class="compact-visual-list-container">
+    <img src="https://cdn.brandfolder.io/3RYPUX6K/at/mjn4qkcgb6b9p649rs5ccgcj/shutterstock_1082667860.jpg?width=1600&amp;quality=35" alt="VIBRA-GUARD®">
+    <div class="card-body">
+      <h3>VIBRA-GUARD<sup>®</sup></h3>
+      <a href="/content/idp/en/products/vibraguard.html" class="action-link" title="Explore">
+        Explore
+      </a>
+    </div>
+  </div>
+
+</section>
+
+    
+</div>
+<div class="cmp-row aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="row no-gutters">
+           <div class="col-xs-12 col-sm-6">
+				
+
+
+
+   <div class="cmp-callout">
+
+<section class="callout bg-dark bg-pattern">
+
+<i class="icon-callout"><img src="https://cdn.brandfolder.io/XG3NESCC/at/2m6kpsfhrqbpn8857qcg9kmk/page-white.svg" alt="icon"></i>
+ 
+
+
+
+ <h3>Product Data Sheets</h3>
+ 
+
+ <p></p><p>Review our FULL LIST of available products.</p>
+<p></p>
+ 
+
+
+<a target="_self" href="/content/idp/en/products-applications/full-product-list.html" class="btn btn-light" title="View Products">
+View Products
+</a>
+
+</section>
+
+
+
+    
+</div>
+  
+
+
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				
+
+
+
+   <div class="cmp-callout">
+
+<section class="callout bg-gray bg-pattern">
+
+<i class="icon-callout"><img src="https://cdn.brandfolder.io/XG3NESCC/at/2m6kpsfhrqbpn8857qcg9kmk/page-white.svg" alt="icon"></i>
+ 
+
+
+
+ <h3>Safety Data Sheets (SDS)</h3>
+ 
+
+ <p></p><p>Search our (M)SDS database for all relevant documentation.</p>
+<p></p>
+ 
+
+
+<a target="_self" href="/content/idp/en/msds.html" class="btn btn-light" title="Find the SDS">
+Find the SDS
+</a>
+
+</section>
+
+
+
+    
+</div>
+  
+
+
+			</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+</div>
+<div class="cmp-contextual-CTA aem-GridColumn aem-GridColumn--default--12">
+
+   		
+      <section class="contextual-cta contextual-cta-card-image">
+         <img src="https://cdn.brandfolder.io/3RYPUX6K/at/33b48n3jnkfggpn5htmktt/IDP_CTA.png" class="card-image">
+         <div class="card-body">
+            <i class="icon-cta"><img src="https://cdn.brandfolder.io/3I2CY2XL/at/bt7mff442fsft89g4jc9mfrs/envelope.svg" alt="icon"></i>
+            <p class="eyebrow">Ready to take the next step?</p>
+            
+            	
+            <h3 class="cta-heading">Talk to a Industrial Drilling Products Representative</h3>
+            <a href="/content/idp/en/contact-us.html" class="btn" target="_self" title="Get in touch">Get in touch</a>
+         </div>
+      </section>
+
+
+   		
+      
+
+
+  	 
+      
+
+
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+
+
+     <footer>
+  <nav role="navigation" class="ftr-top" style="flex-flow: column wrap; height: 203px;">
+    <ul class="links-container accordion adjust-margin">
+      <li class="links-category accordion-btn hide">About Baroid IDP</li>
+      <ul class="links-list accordion-content" data-collapsed="true">
+        <li><a href="/content/idp/en/products-applications.html" target="_self"><span>Products &amp; Applications</span></a></li>
+      
+        <li><a href="/content/idp/en/about-us.html" target="_self"><span>Company Overview</span></a></li>
+      
+        <li><a href="/content/idp/en/contact-us.html" target="_self"><span>Contact Us</span></a></li>
+      </ul>
+    </ul>
+<ul class="links-container accordion adjust-margin">
+      <li class="links-category accordion-btn hide">Discover &amp; Learn</li>
+      <ul class="links-list accordion-content" data-collapsed="true">
+        <li><a href="/content/idp/en/resources-services.html" target="_self"><span>Resources</span></a></li>
+      
+        <li><a href="/content/idp/en/events.html" target="_self"><span>Events</span></a></li>
+      
+        <li><a href="/content/idp/en/msds.html" target="_self"><span>Safety Data Sheets</span></a></li>
+      </ul>
+    </ul>
+
+    <div class="canvas-cover"></div>
+    <div class="backup-image"></div>
+    <canvas id="canvas" width="1032" style="height: 203px; width: 1032px; opacity: 1;" height="203"></canvas>
+  </nav>
+  <div class="ftr-bottom">
+    <div class="ftr-social-links">
+      <nav role="navigation">
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/baroididp" target="_blank">
+              <span class="icon icon-social-youtube" aria-hidden="true"></span>
+            </a>
+            <span class="sr-only">YouTube</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="ftr-bottom-links">
+      <nav role="navigation">
+        <ul>
+          <li>
+            <a target="_blank" class="txt-color-light false">Copyright<sup>©</sup>2022 Baroid Industrial Drilling Products, All Rights Reserved</a>
+          </li>
+        
+          <li>
+            <a href="https://www.halliburton.com/en/about-us/corporate-governance/privacy-policy.html" target="_blank" class="txt-color-light external-link">Privacy</a>
+          </li>
+        
+          <li>
+            <a href="https://www.halliburton.com/en/about-us/corporate-governance/terms-and-conditions.html" target="_blank" class="txt-color-light external-link">Terms</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+            
+    
+    
+<script src="/etc.clientlibs/microsites/clientlibs/clientlib-site.js"></script><section class="related-resources-modal">
+  <h3>Case Histories</h3>
+  <ul>
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/hpxfmwf7r9m5nr29nhr664/Case_History__Torque_reduction_using_PENETROL_DRY.pdf" title="Case History Torque reduction using PENETROL DRY">Case History Torque reduction using PENETROL DRY</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/sfqm7hcxbw4m2xhtwvh8gnh4/North_Vent_Shaft_FINAL.pdf" title="North Vent Shaft at Barrick Gold Case Study">North Vent Shaft at Barrick Gold Case Study</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/cp8zfmmrhqsgwghbvwsj4v/Large_Diameter_Coring.pdf" title="QUIK-TROL GOLD and POLY-BORE In Large Diameter Coring Case Study">QUIK-TROL GOLD and POLY-BORE In Large Diameter Coring Case Study</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/r47vvxfk79jn97kc6kcsbkfs/FUSE-IT_Case_History.pdf" title="FUSE-IT Improves Core Recovery in Australia Case Study">FUSE-IT Improves Core Recovery in Australia Case Study</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/nr87vr7gs8nrs9qsq3knqch/CH2011-13_Dallol_PETROFREE.pdf" title="Use of PETROFREE® System in Dallol Depression Case Study">Use of PETROFREE<sup>®</sup> System in Dallol Depression Case Study</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/8hpf6ftrt8c3sbks7m3svk5t/Approved_CH2011-06_Jwaneng_PETROFREE_SystemFinal.pdf" title="Core Recovery using PETROFREE® System - Case Study">Core Recovery using PETROFREE<sup>®</sup> System - Case Study</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/pjftxtrwvrcn5z26nc38f/CaseHistory_HOLEPLUG_pill_for_deep_core_hole.pdf" title="CaseHistory HOLEPLUG pill for deep core hole">CaseHistory HOLEPLUG pill for deep core hole</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://cdn.brandfolder.io/3RYPUX6K/at/fgxf2q445ftn9xj36p37k4pj/Case_History_Baroid_RPT_Tool_-_FUSE-IT_Fresnillo_Mexico.pdf" title="Case History Baroid RPT Tool - FUSE-IT Fresnillo Mexico">Case History Baroid RPT Tool - FUSE-IT Fresnillo Mexico</a>
+      
+    </li>
+  </ul>
+<span aria-label="close" tabindex="0"></span></section>
+
+
+<iframe name="__uspapiLocator" style="display: none;"></iframe><iframe name="__tcfapiLocator" style="display: none;"></iframe><iframe sandbox="allow-scripts allow-same-origin" title="Adobe ID Syncing iFrame" id="destination_publishing_iframe_halliburton_0" name="destination_publishing_iframe_halliburton_0_name" src="https://halliburton.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.baroididp.com" class="aamIframeLoaded" style="display: none; width: 0px; height: 0px;"></iframe></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
